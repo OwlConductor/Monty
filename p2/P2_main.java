@@ -13,16 +13,18 @@ public class P2_main {
         /*
          * Random values for int i and boolean b.
          */
-        int i = random.nextInt(Integer.MIN_VALUE - Integer.MAX_VALUE + 1) + Integer.MIN_VALUE;
+        int i = random.nextInt();
         boolean b = random.nextBoolean();
-
-        System.out.println("Integer i: " + String.valueOf(i));
-        System.out.println("Boolean b: " + String.valueOf(b));
 
         /*
          * if i is greater 10 then b true
          */
         if(i>10)
             b = true;
+            
+        System.out.println("Integer i: " + String.valueOf(i));
+        System.out.println("Boolean b: " + String.valueOf(b));
+
+        
     }
 }

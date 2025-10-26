@@ -9,17 +9,20 @@ public class P3_main {
     public static void main(String args[]) {
         Random random = new Random();
 
-        int i = random.nextInt(Integer.MIN_VALUE - Integer.MAX_VALUE + 1) + Integer.MIN_VALUE;
-        int j = random.nextInt(Integer.MIN_VALUE - Integer.MAX_VALUE + 1) + Integer.MIN_VALUE;
-        int k = random.nextInt(Integer.MIN_VALUE - Integer.MAX_VALUE + 1) + Integer.MIN_VALUE;
+        int i = random.nextInt();
+        int j = random.nextInt();
+        int k = random.nextInt();
 
-        System.out.println("A is i less j \nB is i less k\nC is j less k");
+        System.out.println("A is i less j \nB is i less k\nC is j less k\n");
+        System.out.println("Start of output");
+
         if(i<j)
             System.out.println("A");
         if(i<k)
             System.out.println("B");
         if(j<k)
             System.out.println("C");
-        System.out.println("End of output");
+            
+        System.out.println("End of output\n");
     }
 }
