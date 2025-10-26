@@ -1,4 +1,4 @@
-package p2;
+package p1;
 
 import java.util.Random;
 
