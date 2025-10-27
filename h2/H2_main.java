@@ -17,7 +17,7 @@ public class H2_main {
          * If one value is less than min, min gets set to that value
          * If one value is greater than max, max gets set to that value
          */
-        for(int currentNumber :  new int[]{i,j,k}) {
+        for(int currentNumber :  new int[]{j,k}) {
             if (min > currentNumber)
                 min = currentNumber;
             if (max < currentNumber)
