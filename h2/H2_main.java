@@ -6,7 +6,6 @@ public class H2_main {
     
     public static void main(String args[]) {
         Random random = new Random();
-
         int i = random.nextInt();
         int j = random.nextInt();
         int k = random.nextInt();
