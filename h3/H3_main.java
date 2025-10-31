@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class H3_main {
     public static void main(String args[]){
+        
         Random random = new Random();
         int i = random.nextInt(0,400);
         int j = random.nextInt(0,400);
