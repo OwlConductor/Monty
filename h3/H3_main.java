@@ -10,7 +10,7 @@ public class H3_main {
         int j = random.nextInt(0,400);
         int k = random.nextInt();
 
-        k = -10;
+        //k = -10;
 
         System.out.println("Valuses:\ni: "+i+ "\nj: " + j + "\nk: "+ k + "\n");
 
