@@ -22,8 +22,8 @@ public class P2_main {
         if(i>10)
             b = true;
             
-        System.out.println("Integer i: " + String.valueOf(i));
-        System.out.println("Boolean b: " + String.valueOf(b));
+        //System.out.println("Integer i: " + String.valueOf(i));
+        //System.out.println("Boolean b: " + String.valueOf(b));
 
         
     }

@@ -10,15 +10,8 @@ public class H3_main {
         int j = random.nextInt(0,400);
         int k = random.nextInt();
 
-        //k = -10;
-
-        System.out.println("Valuses:\ni: "+i+ "\nj: " + j + "\nk: "+ k + "\n");
-
-        /*
-         * running semi fast but not slow
-         * too many cases without function or meaning
-         */
-        
+        // System.out.println("Valuses:\ni: "+i+ "\nj: " + j + "\nk: "+ k + "\n");
+        k = -10;
         if(i>j) {
             if(i>200) {
                 if(j>100) {
@@ -36,7 +29,6 @@ public class H3_main {
             // Case !1,!2,!3
             k = 4;
         }
-
-        System.out.println("Resulting k: " + k);
+        //System.out.println("Resulting k: " + k);
     }
 }

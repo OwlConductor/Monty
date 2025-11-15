@@ -23,9 +23,9 @@ public class H2_main {
                 max = currentNumber;
         }
 
-        System.out.println("Numbers:\ni: "+i+ "\nj: " + j + "\nk: "+ k);
-        System.out.println("min: " + min);
-        System.out.println("max: " + max);
+        // System.out.println("Numbers:\ni: "+i+ "\nj: " + j + "\nk: "+ k);
+        // System.out.println("min: " + min);
+        // System.out.println("max: " + max);
 
     }
 }
